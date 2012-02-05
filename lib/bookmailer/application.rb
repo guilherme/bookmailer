@@ -37,10 +37,6 @@ module Bookmailer
       end
 
       default do
-        p request
-        p request.to
-        p request.subject
-        p request.body
         respond :subject => "FAIL"
       end
 
